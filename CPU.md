@@ -9,19 +9,24 @@ I will provide you the fundamentals of building your own working cpu. Speed and 
 
 ---
 
-## finite turing machine
+## Moore state machines
 
-The ideal way to see a cpu might be a finite state machine. A state machine has 2 components: 
+The ideal way to see a cpu might be based on state machine. A state machine has 2 components: 
 1. state - data thats been held in memory/latches and
-2. logic - transforming data into something else with the use of logic gates. 
+2. logic - transforming current data into something else with the use of logic (gates). 
+That is also pretty much how a cpu can be described.
 
-Even though it might be finite state, state can be expanded to great numbers. 
-In finite state machines theres the state and the combinational logic to get to that new state. 
-Just like math, you want to do a particular calculation, A = B + C where A will be the new state, defined as B added with C. 
+IMG
+
+There is logic to determine what our new state will be, and the actual moment of saving that new state in our registers.
+
+If you wanted to do something like an add operation, say A = B + C, The state of A will be changed with the calculated result of B + C. 
 
 
 
-## Logic Operations
+## 
+
+## FAQ
 
 
 
@@ -29,8 +34,3 @@ Just like math, you want to do a particular calculation, A = B + C where A will 
 ## What Now?
 
 This lesson is over, however here is a list of topics recommended learning next:
-
-- [Dataloop]()
-
-You can also attempt the Builder trial on ORE. It's the process of getting a rank upgrade (from student to builder). Find more using the link below:  
-https://discourse.openredstone.org/builder
